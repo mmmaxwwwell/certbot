@@ -1,0 +1,3 @@
+#!/bin/sh
+certbot "${@}"
+sleep "${SLEEP_TIME:-86400}"
