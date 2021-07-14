@@ -1,0 +1,11 @@
+image: mmmaxwwwell/certbot:develop
+manifests:
+  - image: mmmaxwwwell/certbot:amd64-develop
+    platform:
+      architecture: amd64
+      os: linux
+  - image: mmmaxwwwell/certbot:arm64v8-develop
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
